@@ -1,0 +1,148 @@
+
+/*Media Queries*/
+@media only screen and (max-width: 600px) {
+  	.UserGrid {
+	    display: block;
+    }
+	.UserBoxHeader {
+		width: 100%;
+	    position: fixed;
+	    z-index: 10;
+	}
+	.UserListItems{
+		height: 92vh !important;
+		overflow-y: auto;
+		overflow-x: hidden;
+		position:relative;
+    	top: 50px;
+	}
+	.ArrowBack{
+		visibility: visible !important; 
+		margin-right: 10px;
+	}
+
+
+
+	.MessageBox{
+	  	display: none;
+ 	} 
+
+}
+/*Home Page Css*/
+.inline{
+	display: inline !important; 
+}
+.Badge span{
+	color: #fff !important;
+	background: #20bf6b !important;
+
+}
+.GridContainer-Home {
+    height: 100% !important;
+}
+.UserGrid{
+	/*width: 100%!important; */
+}
+.UserBox{
+	/*height: 100%;*/
+}
+.UserBoxHeader{
+	height: 8%;
+	width: 100%;
+	display: inline-flex;
+	background: #485460;
+}
+.UserProfile{
+	margin-top: 6px !important;
+	margin-left: 15px !important;
+	cursor: pointer;
+}
+.MoreIcon{
+	color: #fff !important;
+}
+.UserListItems{
+	height: 92vh;
+	overflow-y: auto;
+	overflow-x: hidden;
+	background: #f1f3f8 !important;
+}
+.Ellipse{
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.BorderBottom{
+	border-bottom: 1px solid #ddd;
+}
+/*Settings Css*/
+.ArrowBack{
+	color: #fff;
+	cursor: pointer;
+	margin-top: 10px; 
+	visibility: hidden;
+}
+.MessageBoxHeader{
+	width: 100%;
+	display: inline-flex;
+	background: #485460 !important;
+}
+.MessageBody{
+	height: 92% !important;
+	overflow-y: auto;
+	overflow-x: hidden;
+	background: #f1f3f8;	
+}
+.MessageBox{
+	background: #eee !important;
+}
+.Height{
+	height: 100%;
+}
+.TableHeader{
+	background: #485460 !important;
+}
+.HeaderTitle{
+	margin: 10px 15px;
+	color: #fff;
+    font-size: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.TableIcons{
+	cursor: pointer;
+	font-size: 18px !important;
+	color: #192a56;
+}
+.TextField{
+	width: 90% !important;
+	margin: 10px !important;
+}
+.TablePaper{
+	padding: 10px !important;
+}
+.DisplayFlex{
+	display: flex;
+
+}
+.CheckBox{
+	margin-top: 20px;
+	margin-right: 5px;
+}
+.SaveBtn{
+	margin-top: 12px !important;
+	margin-left: 5px !important;
+	padding: 4px 6px !important;
+	color: #fff !important;
+	background: #20bf6b !important;	
+}
+.SaveBtnDiv{
+	margin-left: 50px;
+}
+.CloseBtn{
+	margin-top: 12px !important;
+	margin-left: 5px !important;
+	padding: 4px 6px !important;
+	color: #fff !important;
+	background: #ff7979 !important;
+}

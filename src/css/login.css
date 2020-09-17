@@ -1,0 +1,28 @@
+.MUILoader{
+	height: 0.5vh !important;
+}
+.GridContainer{
+	height: 99.5vh !important;
+}
+
+
+/*Loader*/
+.MuiLinearProgress-barColorPrimary{
+	background-color: #20bf6b !important;
+}
+.MuiLinearProgress-colorPrimary{
+	background-color: #fff !important;
+}
+/*Scoll*/
+::-webkit-scrollbar {
+  width: 4px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}

@@ -1,0 +1,60 @@
+.ImageID{  
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    position: absolute;
+    left: 0px;
+    z-index: 10;
+}
+.ImageDiv{  
+    position: relative;
+    height: 103px;
+    color: #97A1A8;
+    background: #fff;
+    border: 1px dashed #C8CBCE;
+    text-align: center;
+    transition: box-shadow 0.3s, border-color 0.3s;
+    cursor: pointer;
+    margin-top: 14px;
+} 
+
+.ImagePreview{
+    
+    height: 100px;
+    width: 120px;
+    border-radius: 4px;
+    padding: 5px;
+}
+.ImgClose{ 
+    position: absolute;
+    z-index: 11;
+    background: #02B152 !important;
+    border-radius: 8px;
+    display: flex;
+    right: 0px;
+    top: 2px;
+}
+.CloseIconImg{
+    color: #fff;
+    font-size: large !important;
+}
+.ImgNew{
+    padding: 15px;
+}
+.MuiSvgIcon-fontSizeLarge {
+    margin-top: 15px;
+    color: #476b6b;
+    font-size: 3.188rem !important;
+}
+.FileName{
+    color: #476b6b;
+}
+.File-Name{
+    margin-top: 5px;
+    font-size: 10px;
+}
+.ImgUploadMsg{
+    font-size: xx-small;
+    color: brown;
+}
